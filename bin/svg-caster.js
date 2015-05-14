@@ -21,8 +21,8 @@ var
     .alias('h', 'help')
 
     .example('$0 --font ./font.svg --font-css ./font.css --out-svg ./svg/', 'Convert svg font to svg files')
-    .example('$0 --font ./font.svg --svg ./svg/*.svg --out-svg-set ./svg-sprite.svg', 'Convert svg font to svg set file')
-    .example('$0 --svg-set ./one/*.svg --svg-set ./two/*.svg --out-svg-set ./out.svg', 'Convert multiple svg set files to one')
+    .example('$0 --font ./font.svg --svg "./svg/*.svg" --out-svg-set ./svg-sprite.svg', 'Convert svg font to svg set file')
+    .example('$0 --svg-set "./one/*.svg" --svg-set "./two/*.svg" --out-svg-set ./out.svg', 'Convert multiple svg set files to one')
 
     .epilog('svg-caster (https://github.com/icons8/svg-caster)')
     .argv,
