@@ -1,0 +1,28 @@
+{
+  "name": "svg-caster",
+  "description": "Svg caster",
+  "version": "0.1.0",
+  "repository": {
+    "url": "git://github.com/icons8/svg-caster.git"
+  },
+  "tags": [
+    "svg",
+    "svg-font",
+    "svg-set"
+  ],
+  "bin": {
+    "svg-caster": "./bin/svg-caster.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^3.6.0",
+    "bluebird": "^2.9.25",
+    "log4js": "^0.6.25",
+    "svgpath": "^1.0.7",
+    "xmldom": "^0.1.19",
+    "css": "^2.2.0",
+    "css-selector-parser": "^1.0.3",
+    "globby": "^2.0.0",
+    "cheerio": "^0.19.0"
+  }
+}
