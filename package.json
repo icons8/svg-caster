@@ -19,7 +19,6 @@
     "bluebird": "^2.9.25",
     "log4js": "^0.6.25",
     "svgpath": "^1.0.7",
-    "xmldom": "^0.1.19",
     "css": "^2.2.0",
     "css-selector-parser": "^1.0.3",
     "globby": "^2.0.0",
