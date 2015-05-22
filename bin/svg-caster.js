@@ -17,7 +17,6 @@ var
     .describe('out-svg', 'Path to output SVG files folder')
     .describe('out-svg-set', 'Path to output SVG set file')
     .describe('svgo', 'Optimize SVG with SVGO')
-    .describe('shorty', 'Shortify output SVG and SVG sets')
     .describe('pretty', 'Prettify output SVG and SVG sets')
 
     .help('h')
