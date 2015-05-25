@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "yargs": "^3.6.0",
+    "yargs": "^3.9.1",
     "bluebird": "^2.9.25",
     "log4js": "^0.6.25",
     "svgpath": "^1.0.7",

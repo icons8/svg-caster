@@ -18,6 +18,10 @@ var
     .describe('out-svg-set', 'Path to output SVG set file')
     .describe('svgo', 'Optimize SVG with SVGO')
     .describe('pretty', 'Prettify output SVG and SVG sets')
+    .describe('name-parser', 'Name formatter parser regular expression pattern')
+    .describe('name-replace', 'Name formatter replace regular expression pattern')
+    .describe('name-replacement', 'Name formatter replacement')
+    .describe('name-lower', 'Name lower case formatter')
 
     .help('h')
     .alias('h', 'help')
@@ -25,6 +29,7 @@ var
     .example('$0 --svg-font ./font.svg --svg-font-css ./font.css --out-svg ./svg/', 'Convert SVG font to SVG files')
     .example('$0 --svg-font ./font.svg --svg "./svg/*.svg" --out-svg-set ./svg-sprite.svg', 'Convert SVG font to SVG set file')
     .example('$0 --svg-set "./one/*.svg" --svg-set "./two/*.svg" --out-svg-set ./out.svg', 'Convert multiple SVG set files to one')
+    .example('$0 --svg "./material-design-icons/*/svg/production/*24px.svg" --out-svg-set "./material-design-icons.svg" --pretty --svgo --name-parser "^ic_(.*?)_24px$" --name-replace="_" --name-replacement="-"', 'Convert google material design icons to SVG set')
 
     .epilog('svg-caster (https://github.com/icons8/svg-caster)')
     .argv,
