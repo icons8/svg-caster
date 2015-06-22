@@ -1,4 +1,4 @@
-# Svg Caster
+# SVG Caster
 
 ```shell
 npm install -g svg-caster
