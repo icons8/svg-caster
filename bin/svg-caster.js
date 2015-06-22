@@ -22,6 +22,7 @@ var
     .describe('name-replace', 'Name formatter replace regular expression pattern')
     .describe('name-replacement', 'Name formatter replacement')
     .describe('name-lower', 'Name lower case formatter')
+    .describe('id-uniquify', 'Uniquify identificators for insert into DOM')
 
     .help('h')
     .alias('h', 'help')

@@ -19,6 +19,7 @@
     "bluebird": "^2.9.25",
     "log4js": "^0.6.25",
     "svgpath": "^2.0.0",
+    "svg-numbers": "^0.1.1",
     "svg-path-bounding-box": "^1.0.4",
     "css": "^2.2.0",
     "css-selector-parser": "^1.0.3",
