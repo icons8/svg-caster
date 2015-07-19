@@ -6,7 +6,7 @@ svg-caster -h
 ```
 
 ```
-Usage: svg-caster.js [options]
+Usage: svg-caster [options]
 
 Options:
   --svg-font             Path to SVG font file
