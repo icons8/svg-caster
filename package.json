@@ -1,6 +1,6 @@
 {
   "name": "svg-caster",
-  "description": "Svg caster",
+  "description": "SVG font to SVG converter",
   "version": "0.3.2",
   "repository": {
     "url": "git://github.com/icons8/svg-caster.git"

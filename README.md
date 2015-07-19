@@ -1,5 +1,7 @@
 # SVG Caster
 
+SVG font to SVG converter
+
 ```shell
 npm install -g svg-caster
 svg-caster -h
