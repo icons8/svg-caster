@@ -28,6 +28,8 @@
     "svgo": "^0.5.2",
     "fonteditor-core": "^0.0.3",
     "b3b": "^0.0.1",
-    "d3-dsv": "^0.1.5"
+    "d3-dsv": "^0.1.5",
+    "svg-bounding-box": "^0.2.1",
+    "color-string": "^0.3.0"
   }
 }
