@@ -22,6 +22,8 @@ var
     .describe('out-svg-set', 'Path to output SVG set file')
     .describe('svgo', 'Optimize SVG with SVGO')
     .describe('pretty', 'Prettify output SVG and SVG sets')
+    .describe('pretty-size', 'Size of each icon in pretty output')
+    .describe('pretty-padding', 'Padding around each icon in pretty output')
     .describe('empty', 'Allow empty SVG images').default('empty', true)
     .describe('color', 'Allow colors in SVG').default('color', true)
     .describe('name-parser', 'Name formatter parser regular expression pattern')

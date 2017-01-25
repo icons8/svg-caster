@@ -25,6 +25,8 @@ Options:
   --out-svg-set               Path to output SVG set file
   --svgo                      Optimize SVG with SVGO
   --pretty                    Prettify output SVG and SVG sets
+  --pretty-size               Size of each icon in pretty output
+  --pretty-padding            Padding around each icon in pretty output
   --empty                     Allow empty SVG images             [default: true]
   --color                     Allow colors in SVG                [default: true]
   --name-parser               Name formatter parser regular expression pattern
