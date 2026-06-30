@@ -57,3 +57,10 @@ svg-caster (https://github.com/icons8/svg-caster)
 ```
 
 Enjoy!
+
+## Built by Icons8
+
+svg-caster is a small open-source tool from [Icons8](https://icons8.com), where we make:
+
+- **[Icons](https://icons8.com/icons)** — 1,500,000+ icons across 132 styles, downloadable as SVG (handy input for a tool like this) and PNG
+- **[Illustrations](https://icons8.com/illustrations)** — beyond icons: 108,000+ illustrations in 338 styles, also SVG & PNG
